@@ -10,7 +10,35 @@ using std::endl;
 
 int main( void )
 {
-    // TODO: Adicione seu código aqui. 
+    int m, n;
+    
+    while((cin >> std::ws >> m) && (cin >> std::ws >> n)) {
+        int result = 0;
+
+        if(n > 0)
+        {
+        
+            for (int i = 0; i < n; i++)
+            {
+                result = result + m;
+                m++;
+            }
+        }
+        else if(n < 0)
+        {
+            for (int i = 0; i > n; i--)
+            {
+                result = result + m;
+                m--;
+            }
+        }
+        else
+        {
+            result = m;
+        }
+
+        cout << result << "\n";
+    }
 
     return 0;
 }
