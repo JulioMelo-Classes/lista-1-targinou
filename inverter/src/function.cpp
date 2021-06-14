@@ -8,7 +8,7 @@ using std::iter_swap;
  * @param arr Reference to the array with the values.
  */
 template <size_t SIZE>
-void reverse( std::array< std::string, SIZE > & arr )
+void reverse ( std::array <std::string, SIZE> &arr )
 {
     auto first = arr.begin();
     auto last = arr.last();
