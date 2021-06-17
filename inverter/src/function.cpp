@@ -1,5 +1,4 @@
-#include "function.h"
-
+#include <array>
 #include <iterator>
 using std::iter_swap;
 
