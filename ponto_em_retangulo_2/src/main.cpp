@@ -21,7 +21,23 @@ using std::max;
 
 int main(void)
 {
-    // TODO: Adicione aqui seu código.
+    
+    Ponto vertOne, vertTwo, p;
+
+    while( cin >> std::ws >> vertOne.x) {
+        cin >> vertOne.y >> vertTwo.x >> vertTwo.y >> p.x >> p.y;
+
+        if ((vertOne.x == vertTwo.x) && (vertOne.y == vertTwo.y))
+        {
+            cout << "invalid" << std::endl;
+        }
+        else{
+            pt_in_rect(vertOne, vertTwo, p);
+        }
+
+
+    }   
+
 
     return 0;
 }
