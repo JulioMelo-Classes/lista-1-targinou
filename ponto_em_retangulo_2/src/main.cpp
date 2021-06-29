@@ -17,8 +17,7 @@ using std::max;
 //=== Funções
 
 // Coloque aqui qualquer função auxiliar que desejar.
-
-
+/*boa!*/
 int main(void)
 {
     
